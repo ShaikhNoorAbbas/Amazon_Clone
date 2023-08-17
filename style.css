@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+/* Navbar Container */
+.navbarContainer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #131921;
+  color: white;
+  height: 65px;
+  width: 100%;
+}
+.navLogo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  background-image: url("assets/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+/* Address */
+.navFirst {
+  font-size: 12px;
+  color: #cccccc;
+  margin-left: 13px;
+}
+.navSecond {
+  margin-left: 1px;
+  font-weight: 700;
+}
+.navIcon {
+  display: flex;
+  align-items: center;
+}
+.navIcon i {
+  width: 13px;
+  height: 18px;
+}
+/* Search Style */
+.navSearch {
+  display: flex;
+  width: 650px;
+  height: 40px;
+}
+.options {
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  background-color: #f3f3f3;
+}
+.searchInput {
+  width: 100%;
+  border: none;
+}
+.navSearchIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: inherit;
+  background-color: #febd69;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Box4 & Box5 Style */
+.lineFirst {
+  font-size: 12px;
+}
+.lineSecond {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* Cart Styling */
+.navCart i {
+  font-size: 2rem;
+}
+.navCart span {
+  font-weight: 700;
+}
+/* Panel Container Style Starts From Here */
+.panelContainer {
+  height: 39px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.panelOptions {
+  width: 80%;
+}
+.panelOptions p {
+  display: inline;
+  margin: 0 10px;
+}
+.panelDeals {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/* Hero Section Styling Starts from  */
+.hero {
+  background-image: url("assets/hero_image.jpg");
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+.banner {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.banner p a {
+  color: #207b8c;
+}
+/* Shop Section */
+.shopSection {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #bbd0d3;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-wrap: wrap;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  margin-top: 15px;
+  padding: 20px 0 15px 0;
+}
+.boxContent {
+  margin: 0 1rem;
+}
+.boxImage {
+  height: 300px;
+  background-size: cover;
+  margin: 1rem 0;
+}
+.boxContent p {
+  color: #207b8c;
+}
+/* Footer Styling */
+
+.footerPanel1 {
+  background-color: #37475a;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerPanel1 a {
+  color: white;
+  text-decoration: none;
+}
+.footerPanel2 {
+  background-color: #232f3e;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  align-items: center;
+}
+.footerPanel2 ul li {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+.footerPanel2 ul p {
+  font-weight: bold;
+}
+.footerPanel3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232f3e;
+  height: 80px;
+  border-top: 0.5px solid white;
+}
+.footLogo {
+  background-image: url("assets/amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.footPanel4 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #131921;
+}
+.copyright a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+}
+.copyright p {
+  padding-top: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+}
